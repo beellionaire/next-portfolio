@@ -23,12 +23,12 @@ const Photo = () => {
           className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
         >
           <Image
-            src="/assets/DSCF5211.JPG"
+            src="/assets/foto-profil.png"
             priority
             quality={100}
             fill
             alt=""
-            className="object-contain"
+            className="object-cover rounded-full"
           />
         </motion.div>
 

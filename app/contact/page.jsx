@@ -20,17 +20,17 @@ const info = [
   {
     icon: <FaPhoneAlt />,
     title: "Phone",
-    description: "+628 1111 1111 111",
+    description: "+62 895 2817 0966",
   },
   {
     icon: <FaEnvelope />,
     title: "Email",
-    description: "beel@beelionairestudio",
+    description: "nabielabiyuu@gmail.com",
   },
   {
     icon: <FaMapMarkerAlt />,
     title: "Location",
-    description: "Jakarta, Indonesia",
+    description: "Surakarta, Indonesia",
   },
 ];
 

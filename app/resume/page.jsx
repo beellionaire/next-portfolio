@@ -18,23 +18,23 @@ import { RiJavascriptFill } from "react-icons/ri";
 const about = {
   title: "About Me",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta amet ea ratione officiis! Eligendi, perferendis!",
+    "I am a passionate Web Developer based in Solo, Indonesia. I specialize in building modern, responsive, and user-friendly web applications. With a strong foundation in both front-end and back-end development, I enjoy turning ideas into functional digital experiences that are not only visually appealing but also scalable and efficient.",
   info: [
     {
       fieldName: "Name",
-      fieldValue: "Beel",
+      fieldValue: "Nabeel Aby",
     },
     {
       fieldName: "Phone",
-      fieldValue: "+628 1111 1111 111",
+      fieldValue: "+62 895 2817 0966",
     },
     {
       fieldName: "City",
-      fieldValue: "Solo, Indonesia",
+      fieldValue: "Surakarta, Indonesia",
     },
     {
       fieldName: "Email",
-      fieldValue: "beel.business@gmail.com",
+      fieldValue: "nabielabiyuu@gmail.com",
     },
   ],
 };
@@ -44,37 +44,17 @@ const experience = {
   icon: "/public/assets/resume/badge.svg",
   title: "My Experience",
   description:
-    "lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta amet ea ratione officiis! Eligendi, perferendis!",
+    "Over the years, I have gained valuable experience in web development and digital design. I have worked on projects ranging from personal portfolios to business platforms, where I was responsible for creating user-friendly interfaces, developing responsive websites, and ensuring seamless functionality.",
   items: [
     {
       company: "Beellionaire Studio",
       position: "Owner",
-      duration: "2032 - Present",
+      duration: "2022 - Present",
     },
     {
-      company: "Apple Inc",
-      position: "Software Engineer",
-      duration: "2029 - 2032",
-    },
-    {
-      company: "Pahamify",
-      position: "Software Engineer",
-      duration: "2028 - 2029",
-    },
-    {
-      company: "Tokopedia Indonesia",
-      position: "Software Engineer Intern",
-      duration: "2027 - 2028",
-    },
-    {
-      company: "Telkom Indonesia",
-      position: "Frontend Developer Intern",
-      duration: "2026 - 2027",
-    },
-    {
-      company: "Kemenkominfo RI",
-      position: "Graphic Designer Intern",
-      duration: "2024 - 2025",
+      company: "Inspirasite",
+      position: "Web Developer",
+      duration: "2025 - Present",
     },
   ],
 };
@@ -84,13 +64,8 @@ const education = {
   icon: "/public/assets/resume/cap.svg",
   title: "My Education",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta amet ea ratione officiis! Eligendi, perferendis!",
+    "My academic journey has given me a strong foundation in computer science and web technologies. Through coursework and real projects, I have developed skills in software development, database management, and modern web frameworks that support my career as a Web Developer.",
   items: [
-    {
-      institution: "Telkom University",
-      degree: "Magister of Computer Science",
-      duration: "2026 - 2028",
-    },
     {
       institution: "University of Muhammadiyah",
       degree: "Bachelor of Computer Science",
@@ -103,7 +78,7 @@ const education = {
 const skills = {
   title: "My Skills",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta amet ea ratione officiis! Eligendi, perferendis!",
+    "I have developed a diverse set of skills in both web development and creative design. My expertise ranges from building responsive web applications using modern frameworks, to creating engaging visuals with industry-standard design tools. This combination allows me to deliver complete digital solutions that are both functional and visually appealing.",
   skillList: [
     {
       icon: <FaFigma />,
@@ -196,7 +171,7 @@ const Resume = () => {
             <TabsContent value="experience" className="w-full">
               <div className="flex flex-col gap-[30px] text-center lg:text-left">
                 <h3 className="text-4xl font-bold">{experience.title}</h3>
-                <p className="max-w-[600px] text-white/60 mx-auto lg:mx-0">
+                <p className="w-full text-white/60 mx-auto lg:mx-0 text-justify">
                   {experience.description}
                 </p>
                 <ScrollArea className="h-[480px]">
@@ -227,7 +202,7 @@ const Resume = () => {
             <TabsContent value="education" className="w-full">
               <div className="flex flex-col gap-[30px] text-center lg:text-left">
                 <h3 className="text-4xl font-bold">{education.title}</h3>
-                <p className="max-w-[600px] text-white/60 mx-auto lg:mx-0">
+                <p className="w-full text-white/60 mx-auto lg:mx-0 text-justify">
                   {education.description}
                 </p>
                 <ScrollArea className="h-[480px]">
@@ -259,7 +234,7 @@ const Resume = () => {
               <div className="flex flex-col gap-[30px]">
                 <div className="flex flex-col gap-[30px] text-center lg:text-left">
                   <h3 className="text-4xl font-bold">{skills.title}</h3>
-                  <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                  <p className="w-full text-white/60 mx-auto lg:mx-0 text-justify">
                     {skills.description}
                   </p>
                 </div>
@@ -292,7 +267,7 @@ const Resume = () => {
             >
               <div className="flex flex-col gap-[30px]">
                 <h3 className="text-4xl font-bold">{about.title}</h3>
-                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                <p className="w-full text-white/60 mx-auto lg:mx-0 text-justify">
                   {about.description}
                 </p>
                 <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[602px] mx-auto xl:mx-0">
@@ -303,7 +278,9 @@ const Resume = () => {
                         className="flex items-center justify-center xl:justify-start gap-4"
                       >
                         <spa className="text-white/60">{item.fieldName}</spa>
-                        <span className="text-xl">{item.fieldValue}</span>
+                        <span className="text-xl font-bold">
+                          {item.fieldValue}
+                        </span>
                       </li>
                     );
                   })}
