@@ -35,11 +35,8 @@ const Contact = () => {
         opacity: 1,
         transition: { delay: 0.2, duration: 0.6, ease: "easeOut" },
       }}
-      /* PERBAIKAN MARGIN MOBILE: 
-         - Menambahkan pt-[140px] agar konten di mobile tidak menabrak header.
-         - xl:pt-0 mengembalikan padding ke 0 pada layar besar karena sudah diatur oleh items-center.
-      */
-      className="min-h-screen flex items-center py-12 xl:py-24 pt-[140px] xl:pt-0 relative overflow-hidden bg-[#1a1a1a]"
+    
+      className="min-h-screen flex items-center py-12 xl:py-24 pt-[140px] xl:pt-0 relative overflow-x-hidden bg-[#1a1a1a]"
     >
       {/* Ambient Background Glow */}
       <div className="absolute top-[10%] left-[-5%] w-[400px] h-[400px] bg-accent/5 rounded-full blur-[120px] -z-10" />
