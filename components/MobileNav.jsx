@@ -31,7 +31,7 @@ const MobileNav = () => {
         <div className="absolute top-[-10%] left-[-20%] w-[300px] h-[300px] bg-accent/10 rounded-full blur-[100px] -z-10" />
 
         {/* Logo Section */}
-        <div className="mt-32 mb-32 text-center relative">
+        <div className="mt-32 mb-16 text-center relative">
           <Link href="/" className="text-4xl font-bold tracking-tighter group">
             Beel<span className="text-accent drop-shadow-[0_0_8px_#eaaa15] transition-all duration-500 group-hover:drop-shadow-[0_0_15px_#eaaa15]">.</span>
           </Link>
