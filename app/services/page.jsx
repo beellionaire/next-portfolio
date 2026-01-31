@@ -33,7 +33,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center py-20 xl:py-0 pt-[140px] xl:pt-0 relative overflow-hidden bg-[#0d0d0d]">
+    <section className="min-h-screen flex items-center justify-center py-20 xl:py-0 pt-[140px] xl:pt-0 relative overflow-x-hidden bg-[#0d0d0d]">
       {/* --- AKSEN ORANGE BACKGROUND (ORBS) --- */}
       {/* Orb Atas Kanan (Orange) */}
       <div className="absolute top-[-5%] -right-[5%] w-[600px] h-[600px] bg-accent/10 rounded-full blur-[120px] -z-10 animate-pulse" />

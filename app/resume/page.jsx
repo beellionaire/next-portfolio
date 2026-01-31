@@ -172,7 +172,7 @@ const Resume = () => {
   const [activeTab, setActiveTab] = useState("experience");
 
   return (
-    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }} className="min-h-screen flex items-center justify-center py-20 lg:py-24 relative overflow-hidden bg-[#0d0d0d]">
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }} className="min-h-screen flex items-center justify-center py-20 lg:py-24 relative overflow-x-hidden bg-[#0d0d0d]">
       {/* Background Decorative Elements */}
       <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
         <div className="absolute top-[-10%] right-[-10%] w-[600px] h-[600px] bg-accent/10 rounded-full blur-[150px] animate-pulse" />

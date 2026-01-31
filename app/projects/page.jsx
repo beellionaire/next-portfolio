@@ -75,7 +75,7 @@ const Work = () => {
   };
 
   return (
-    <motion.section initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="min-h-screen flex flex-col justify-center py-24 xl:py-0 relative overflow-hidden bg-[#0d0d0d]">
+    <motion.section initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="min-h-screen flex flex-col justify-center py-24 xl:py-0 relative overflow-x-hidden bg-[#0d0d0d]">
       <div className="absolute top-[20%] right-[-10%] w-[500px] h-[500px] bg-accent/5 rounded-full blur-[150px] -z-10" />
 
       <div className="container mx-auto relative z-10 px-4 xl:px-0 pt-[40px] xl:pt-0">
